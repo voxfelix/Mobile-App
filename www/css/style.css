@@ -1,6 +1,7 @@
-.wrap{
-  word-wrap: break-word;
+* {
+  font-family: 'bariolregular' !important;
 }
+
 
 .dark {
   background-color: #3f4041 !important;
