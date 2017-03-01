@@ -2,7 +2,7 @@ var dataObj = [
   {
     name: 'Helpline Center',
     phone: 211,
-    description: 'We are here for you. All day, every day. At the Helpline Center, we believe everyone deserves help when they need simple answers, community connections or hope during difficult times.'
+    description: 'We are here for you. All day, every day. At the Helpline Center, we believe everyone deserves help when they need simple answers, community connections or hope during difficult times.',
     category: 1
   },
   {

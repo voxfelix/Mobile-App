@@ -1,12 +1,43 @@
-<ion-view view-title="PRESS TO CALL" class = "dark">
+<ion-view view-title="PRESS TO CALL">
   <ion-content>
-    <ion-list>
-      <ion-item ng-repeat="item in items" ng-if="item.category==id" ng-href="tel: {{item.phone}}" class="item-text-wrap">
-            <br><h1>{{item.name}}</h1></br>
-            <br>{{item.location}}</br>
-            <br>{{item.description}}</br>
-            <br>{{item.phone}}</br>
-      </ion-item>
-    </ion-list>
+
+      <div class="card" ng-repeat="item in items" ng-if="item.category==id">
+        <div class="item item-text-wrap">
+          <h1 class="card-title">{{ item.name }}</h1>
+          <p>{{ item.description }}</p>
+          <p ng-if="item.postalAddress">Address: {{ item.postalAddress }}</p>
+        </div>
+
+        <!-- if both a web link and a phone number -->
+        <div class="footer" ng-if="item.phone && item.web">
+          <div class="row">
+            <div class="col col-50">
+              <a ng-if="item.phone" href="tel:+19145257507" class="phone-btn button calm">Call</i></a>
+            </div>
+            <div class="col col-50">
+              <a ng-if="item.web" href="{{ item.web }}" class="web-btn button positive">Website</a>
+            </div>
+          </div>
+        </div>
+        <!-- if only a phone number -->
+        <div class="footer" ng-if="item.web==null">
+          <div class="row">
+            <div class="col">
+              <a ng-if="item.phone" href="tel:+19145257507" class="phone-btn button calm">Call</a>
+            </div>
+          </div>
+        </div>
+        <!-- if only a web link -->
+        <div class="footer" ng-if="item.phone==null">
+          <div class="row">
+            <div class="col">
+              <a ng-if="item.web" href="{{ item.web }}" class="web-btn button positive">Website</a>
+            </div>
+          </div>
+        </div>
+
+
+      </div>
+
   </ion-content>
 </ion-view>
