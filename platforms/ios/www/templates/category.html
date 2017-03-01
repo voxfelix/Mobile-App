@@ -1,0 +1,12 @@
+<ion-view view-title="PRESS TO CALL" class = "dark">
+  <ion-content>
+    <ion-list>
+      <ion-item ng-repeat="item in items" ng-if="item.category==id" ng-href="tel: {{item.phone}}">
+            <br>{{item.name}}</br>
+            <br>{{item.location}}</br>
+            <br>{{item.description}}</br>
+            <br>{{item.phone}}</br>
+      </ion-item>
+    </ion-list>
+  </ion-content>
+</ion-view>

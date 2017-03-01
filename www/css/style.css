@@ -1,1 +1,17 @@
-/* Empty. Add your own CSS if you like */
+* {
+  font-family: 'bariolregular' !important;
+}
+
+
+.dark {
+  background-color: #3f4041 !important;
+  color: #ffffff;
+  .scroll-content {
+    background-color: #3f4041 !important;
+  }
+}
+
+.big-font {
+  font-weight: bold;
+  font-size: 150%;
+}

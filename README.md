@@ -2,5 +2,6 @@
 
 Categories:
 - Food
-- Health
-- family
+- Physical Health
+- Mental Health
+- Family
