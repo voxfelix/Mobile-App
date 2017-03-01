@@ -1,0 +1,16 @@
+.wrap{
+  word-wrap: break-word;
+}
+
+.dark {
+  background-color: #3f4041 !important;
+  color: #ffffff;
+  .scroll-content {
+    background-color: #3f4041 !important;
+  }
+}
+
+.big-font {
+  font-weight: bold;
+  font-size: 150%;
+}
