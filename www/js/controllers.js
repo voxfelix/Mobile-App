@@ -14,9 +14,11 @@ angular.module('starter.controllers', [])
 
 .controller('CategoriesCtrl', function($scope) {
   $scope.categories = [
-    { title: 'Food', id: 1 },
-    { title: 'Physical Health', id: 2 },
-    { title: 'Mental Health', id: 3 }
+    { title: 'General', id: 1 },
+    { title: 'Health and Wellness', id: 2 },
+    { title: 'Food Delivery', id: 3 },
+    { title: 'Transportation', id: 4 },
+    { title: 'Leisure and Recreation', id: 5 }
   ];
 })
 
