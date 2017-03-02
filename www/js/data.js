@@ -34,14 +34,3 @@ var dataObj = [
     category: 5
   }
 ]
-
-/*
-{
-  name: 'Old People Help',
-  phone: 9145551234,
-  postalAddress: '14 North street, white Plains',
-  web: 'https://www.whiteplains.com/',
-  description: 'yo, what's good?'
-  category: 1
-}
-*/
