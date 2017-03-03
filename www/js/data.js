@@ -51,7 +51,7 @@ var dataObj = [
   {
     name: 'Meals-on-Wheels',
     web: 'http://www.mowwp.org/',
-    phone: '9149466878',,
+    phone: '9149466878',
     description: 'Volunteers deliver food to those unable to shop for themselves',
     category: 3
   },
@@ -75,7 +75,7 @@ var dataObj = [
     postalAddress: '35 Orchard St, White Plains, NY 10603',
     phone: '9149493098',
     web: 'http://www.gracewhiteplains.org/',
-    description: 'This is a non-sectarian, community-based 501(c) (3) organization whose mission is to assist Westchester County’s neediest and most at-risk residents, especially those who are under-served by other resources.',,
+    description: 'This is a non-sectarian, community-based 501(c) (3) organization whose mission is to assist Westchester County’s neediest and most at-risk residents, especially those who are under-served by other resources.',
     category: 5
   }
 ]
